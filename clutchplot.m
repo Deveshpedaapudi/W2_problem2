@@ -1,4 +1,4 @@
-function sldemo_clutchplot(Action)
+function clutchplot(Action)
 %   SLDEMO_CLUTCHPLOT plot clutch time histories.
 %   SLDEMO_CLUTCHPLOT plots the input and output time histories of the clutch
 %   model.  
