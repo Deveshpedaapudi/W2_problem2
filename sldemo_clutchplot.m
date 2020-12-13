@@ -120,9 +120,9 @@ if ~isempty(Vars) && ~isempty(Value),
       % according to what the user selected from the checklist
       % PlotMe is the name of signal to be plotted
       switch EvalStr,
-          case 'Clutch Pedal',
+          case 'Clutch',
               PlotMe = 'Fn';
-          case 'Engine Torque',
+          case 'EngineTorque',
               PlotMe = 'Tin';
           case 'we',
               PlotMe = 'EngineSpeed';
@@ -132,11 +132,11 @@ if ~isempty(Vars) && ~isempty(Value),
               PlotMe = 'ShaftSpeed';
           case 'Locked Flag',
               PlotMe = 'LockedFlag';
-          case 'Lockup Flag',
+          case 'LockupFlag',
               PlotMe = 'LockupFlag';
-          case 'Break-Apart Flag',
+          case 'Break Apart Flag',
               PlotMe = 'UnlockFlag';
-          case 'FrictionTorque Required for Lockup',
+          case 'Friction torque required for lockup',
               PlotMe = 'Tfmaxk';
           case 'Max Static Friction Torque',
               PlotMe = 'Tfmaxs';
